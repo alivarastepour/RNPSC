@@ -1,7 +1,7 @@
 # RNPSC
 shell script for creating new react/next app with node package executor(npx) and node package manager(npm)
 
-## supported dependcies
+## supported dependencies
 Typescript, Material UI, Redux, styled components, axios and SASS packages are currently supported.
 
 ## run
@@ -12,10 +12,17 @@ chmod u+x RNPSC.sh
 `
 
 `
-./RNPSC.sh [custom flags here]
+./RNPSC.sh [project type] [project name] [custom flags]
 `
 
+## project type
+
+npx create-next-app : next
+
+npx create-react-app : react
+
 ## flags
+
 TypeScript : t
 
 Material UI : m
@@ -27,3 +34,19 @@ styled-components : sc
 axios : a
 
 SASS : sa
+
+## example
+
+`
+./RNPSC.sh next helloworld t m a 
+`
+
+is equal to:
+
+`
+npx create-next-app helloworld
+`
+
+`
+npm install typescript @types/node @types/react @mui/material @mui/icons-material @emotion/react @emotion/styled axios@latest
+`
