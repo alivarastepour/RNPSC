@@ -17,9 +17,10 @@ chmod u+x RNPSC.sh
 
 ## project type
 
-npx create-next-app : next
-
-npx create-react-app : react
+| project type | flag |
+| ------------ | ---- |
+| next app | next |
+| react app | react |
 
 ## flags
 
