@@ -23,17 +23,14 @@ npx create-react-app : react
 
 ## flags
 
-TypeScript : t
-
-Material UI : m
-
-Redux : r
-
-styled-components : sc
-
-axios : a
-
-SASS : sa
+| Technology | flag |
+|----------- | ---- |
+| TypeScript | t |
+| Material UI | m |
+| Redux | r |
+| styled-components | sc |
+| axios | a |
+| SASS | sa |
 
 ## example
 
